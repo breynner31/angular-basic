@@ -1,0 +1,10 @@
+<div class="column-container2">
+  <div class="column2" [ngStyle]="{'left.px': position.x, 'top.px': position.y}">
+    <div class="controls">
+      <button (click)="move('up')">↑</button>
+      <button (click)="move('down')">↓</button>
+      <button (click)="move('left')">←</button>
+      <button (click)="move('right')">→</button>
+    </div>
+  </div>
+</div>

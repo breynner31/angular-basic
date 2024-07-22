@@ -1,0 +1,43 @@
+.column-container {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    width: 200%;
+    max-width: 500px;
+    margin: auto;
+    left: 32rem;
+    top: 9rem;
+   
+  }
+  
+  .column {
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    height: 100px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+
+  }
+  
+
+  .color-picker {
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="color"] {
+    margin-right: 10px;
+    cursor: pointer; // Cambia el cursor al pasar sobre el selector de color
+  }
+  
+  button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer; // Cambia el cursor al pasar sobre el botón
+  }

@@ -1,0 +1,53 @@
+/* src/app/large-box/large-box.component.scss */
+.large-box {
+  width: 100%;
+  max-width: 800px;
+  height: 500px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 60px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #333;
+  }
+
+  p {
+    font-size: 16px;
+    color: #666;
+  }
+}
+
+
+.custom-footer {
+  height: 3px; // Altura inicial del footer
+  width: 100%;
+  background-color: #333; // Color de fondo del footer
+  color: #fff; // Color del texto en el footer
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  // .footer-content {
+  //   // Aquí puedes agregar estilos adicionales para el contenido del footer
+  // }
+}
+
+// Estilos adicionales para cambiar el tamaño del footer
+.custom-footer.small {
+  height: 2px;
+}
+
+.custom-footer.large {
+  height: 10px;
+}
+

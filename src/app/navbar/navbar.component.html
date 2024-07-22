@@ -1,0 +1,26 @@
+<div class="nav-box" *ngIf="invisible " >
+   <span class="x">X</span>
+   <span class="y">Y</span>
+   <button>{{x}}</button>
+   <button class="button2"> {{y}}</button>
+  
+   <div class="color-cuadro">
+    <label for="colorInput"> Fondo </label>
+    <input type="color"  (change)="onColorChange($event)" [value]="selectedColor">
+</div>
+
+<div class="color-cuadro-movimiento">
+  <label for="color2Input"> COLOR </label>
+  <input type="color"  (change)="onColorChange2($event)" [value]="selectedColor2">
+</div>
+    
+    <button class="button3"  (click)="toggleVisibility()">Ocultar Navbar</button>
+
+  </div>
+
+  <div class="visible" *ngIf="!invisible" >
+
+    <label>mostrar navbar </label>
+    <button class="button4"   (click)="toggleVisibility()"></button>
+  </div>
+

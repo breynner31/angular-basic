@@ -1,0 +1,81 @@
+.nav-box {
+    position: absolute;
+    margin-top: -640px;
+    margin-left: 80px;
+    width: 100%;
+    max-width: 200px;
+    height: 618px;
+    background-color: #000000;
+    border: 3px solid #bc7d25;
+    border-radius: 15px;
+
+    .x{
+        color: #fff;
+        position: relative;
+        top: 8rem;
+        left: 3rem;
+    }
+    button{
+        position: relative;
+        top: 8rem;
+        left: 6rem;
+    }
+    .y{
+        color: #fff;
+        position: relative;
+        top:  11rem;
+        left: 2.3rem;
+    }
+    .button2 {
+        position: relative;
+        top: 11rem;
+        left: 4.6rem;
+    }
+
+    .color-cuadro, .label, .imput{
+    position: absolute;
+       top: 20rem;
+       left: 3rem;
+       width: 100%;
+       max-width: 15rem;
+       color: #fff;
+    }
+
+    .button3 {
+        position: absolute;
+        top: 28rem;
+        left: 2.0rem;
+        width: 70%;
+        height: 2rem;
+
+    }
+    
+}
+
+    .visible, .label {
+        position: absolute;
+        left: 3rem;
+        top: 24rem;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+
+    }
+
+    .button4 {
+        position: absolute;
+        top: 2rem;
+        left: -2rem;
+        width: 150%;
+        height: 3rem;
+
+    }
+
+    .color-cuadro-movimiento, .label {
+        position: absolute;
+        top: 16rem;
+        left: 3.5em ;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+    }

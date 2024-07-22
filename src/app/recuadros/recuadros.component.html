@@ -1,0 +1,15 @@
+<div class="column-container">
+  <div *ngFor="let column of columns; let i = index" 
+       class="column" 
+       [ngStyle]="{'background-color': columns[i]}" 
+       [ngClass]="{'highlighted': isCovered(i), 'selected': selectedIndex === i}"
+       (click)="selectRecuadro(i)">
+
+  </div>
+</div>
+
+<!-- Input de color y botón para aplicar color -->
+<div *ngIf="selectedIndex !== null" class="color-picker">
+  <input type="color" [(ngModel)]="selectedColor" />
+  <button (click)="applyColor()">Apply Color</button>
+</div>
